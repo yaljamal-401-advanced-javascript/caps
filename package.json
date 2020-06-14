@@ -1,0 +1,33 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaljamal-401-advanced-javascript/caps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaljamal-401-advanced-javascript/caps/issues"
+  },
+  "homepage": "https://github.com/yaljamal-401-advanced-javascript/caps#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "events": "^3.1.0",
+    "fake": "^0.2.2",
+    "faker": "^4.1.0",
+    "jest": "^26.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "lint": "^0.7.0"
+  }
+}
