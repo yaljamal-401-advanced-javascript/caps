@@ -1,4 +1,4 @@
-const handler = require('../moduler/caps.js');
+const handler = require('../moduler/caps/caps.js');
 let consoleSpy = jest.spyOn(console, 'log');
 describe('Handler', () => {
     it('pickup log', () => {
